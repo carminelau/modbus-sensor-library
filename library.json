@@ -31,8 +31,6 @@
         "arduino"
     ],
     "platforms": [
-        "atmelavr",
-        "espressif8266",
         "espressif32"
     ],
     "build": {
