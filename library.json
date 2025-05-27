@@ -25,7 +25,11 @@
     "license": "MIT",
     "homepage": "",
     "dependencies": {
-        "SoftwareSerial": "*"
+        "plerup/EspSoftwareSerial": {
+            "version": "^6.15.2",
+            "frameworks": "arduino",
+            "platforms": "espressif32"
+        }
     },
     "frameworks": [
         "arduino"
