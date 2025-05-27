@@ -1,0 +1,49 @@
+{
+    "name": "ModbusSensorLibrary",
+    "version": "1.0.0",
+    "description": "Libreria per sensori Modbus RS485 (Anemometro e Sensore Suolo)",
+    "keywords": [
+        "modbus",
+        "rs485",
+        "sensors",
+        "anemometer",
+        "soil",
+        "weather",
+        "agriculture"
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "authors": [
+        {
+            "name": "Carmine Laudato",
+            "email": "laudato.carmine99@gmail.com",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "dependencies": {
+        "SoftwareSerial": "*"
+    },
+    "frameworks": [
+        "arduino"
+    ],
+    "platforms": [
+        "atmelavr",
+        "espressif8266",
+        "espressif32"
+    ],
+    "build": {
+        "libCompatMode": "strict"
+    },
+    "export": {
+        "include": "include/*",
+        "exclude": [
+            "examples/*",
+            "test/*",
+            ".git/*"
+        ]
+    }
+}
