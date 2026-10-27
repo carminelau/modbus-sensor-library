@@ -1,3 +1,19 @@
+# modbus-sensor-library
+
+Libreria Arduino e PlatformIO per comunicare con sensori Modbus RS485, inclusi anemometri e sensori del terreno.
+
+## Mappa del repository
+
+| Percorso | Contenuto | File |
+|---|---|---:|
+| [include/](./include) | Header e interfacce C/C++. | 1 |
+| [src/](./src) | Codice sorgente principale. | 1 |
+| [library.json](./library.json) | Configurazione o sorgente del progetto. | 1 |
+
+---
+
+## Documentazione di riferimento conservata
+
 # ModbusSensorLibrary
 A professional Arduino/PlatformIO library for communicating with Modbus RS485 sensors, specifically designed for anemometers and soil sensors.
 
